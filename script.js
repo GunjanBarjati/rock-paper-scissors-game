@@ -21,7 +21,6 @@ const showWinner = (userWin, userChoice, compChoice) => {
         compScore++;
         msg.innerText = `Computer win! ${compChoice} beats ${userChoice}`;
         msg.style.backgroundColor = "red";
-        document.querySelector("#compScore").innerText = compScore;
     }
 }
 
