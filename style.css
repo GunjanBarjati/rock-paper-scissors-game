@@ -35,7 +35,7 @@
 }
 
 #rock{
-    background-image: url("rock.png");
+    background-image: url("images/rock.png");
     height: 17vh;
     width: 17vh;
     border-radius: 50%;
@@ -45,7 +45,7 @@
 }
 
 #paper{
-    background-image: url("paper.png");
+    background-image: url("images/paper.png");
     height: 17vh;
     width: 17vh;
     border-radius: 50%;
@@ -55,7 +55,7 @@
 }
 
 #scissors{
-    background-image: url("scissors.png");
+    background-image: url("images/scissors.png");
     height: 17vh;
     width: 17vh;
     border-radius: 50%;

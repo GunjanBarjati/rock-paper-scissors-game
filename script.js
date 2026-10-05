@@ -21,6 +21,7 @@ const showWinner = (userWin, userChoice, compChoice) => {
         compScore++;
         msg.innerText = `Computer win! ${compChoice} beats ${userChoice}`;
         msg.style.backgroundColor = "red";
+        document.querySelector("#compScore").innerText = compScore;
     }
 }
 
@@ -28,6 +29,7 @@ const playGame = (userChoice) => {
     const compChoice = genCompChoice();
     if(userChoice === compChoice){
         msg.innerText = "Game was draw. Play again!"
+        msg.style.backgroundColor = "blue";
     }else{
         let userWin = true;
         if(userChoice === "rock"){
